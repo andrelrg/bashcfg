@@ -1,6 +1,7 @@
 #!/bin/bash
 
-EDITOR=/usr/bin/vim
+EDITOR1=/usr/bin/vim
+EDITOR2="code"
 HISTCONTROL=ignoreboth
 WORK="${HOME}/${WORKNAME}"
 PERSONAL="${HOME}/personal-projects"
