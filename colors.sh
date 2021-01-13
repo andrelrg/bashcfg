@@ -1,7 +1,7 @@
 #!/bin/bash
 
 NONE="\[\033[0m\]"
-​
+   
 ## Colors
 K="\[\033[0;30m\]" # Black
 R="\[\033[0;31m\]" # Red
@@ -35,6 +35,5 @@ BGB="\[\033[44m\]" # Blue
 BGM="\[\033[45m\]" # Magenta
 BGC="\[\033[46m\]" # Cyan
 BGW="\[\033[47m\]" # White
-​
 USER_COLOR=$BC
 HOSTNAME_COLOR=$C
