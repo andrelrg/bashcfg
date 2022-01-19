@@ -10,5 +10,13 @@ parse_git_branch() {
 }
 
 export_PS1() {
-    export PS1=$USER_COLOR["\u"]:$G"\w"$O'$(parse_git_branch)'"$W$ $NONE" 
+    export PS1=$G"\w"$O'$(parse_git_branch)'"$W$ $NONE" 
+}
+
+dsa() {
+  docker stop $(docker ps | awk 'FNR > 1 {print $1}')
+}
+
+drma() {
+  docker rm $(docker ps -a | awk 'FNR > 1 {print $1}')
 }
